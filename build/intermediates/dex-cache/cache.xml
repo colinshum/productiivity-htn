@@ -16,6 +16,20 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_6bf97ee8968454836ecef72f1e0ce505047df307/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7a40e5df4a465df603b146ddf6cea40709b69651">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a1fe2c6b836fc95dfea647f11707d2a5f685d898/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_cc807c4225f46c97b4805475c3acbb79aec89e91/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         revision="24.0.2"
@@ -30,11 +44,25 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c1c24915473d4046e4f1f8da26f67f5b225f3380/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_9d378fcc61833995638570f8dcd6247218769356/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_324a75cf85d0a19a66790f6eb98f9f5550e68812/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0faed4848f3d5551a4fe9be120697fbe8507579d/classes.dex" />
     </item>
     <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
@@ -44,11 +72,25 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_0c90728e24274850a5b3739e3429ff3d0c647d02/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1df47440d3d24794a5233c1996002f60e671483d">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d8c4be44c0dba4ab0e3b517fa198e4bf04b3c84/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4d9a04e7005170c7aa6a9babd2915e059f377240/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f46a56741a6a9f3a6a5544dd296ab5632235efea/classes.dex" />
     </item>
     <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
@@ -65,6 +107,13 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_eacd17fb7ee4d5f326258bc215b32d36cb3df9a3/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_74b4c49d4a6c951402c910ab4fa533dac9754378/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.2"
@@ -72,11 +121,25 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_d5c918fe518b2808abb5e6710c0df33a8be3bada/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_b109861eecbac7b879c39fdfed606d2ea194b6d3/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f522680da677594ddbf6ec8d15445b66ab5dcbea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_35a6b0ccbad19e9fc9afa36824bd8f333ccb83c3/classes.dex" />
     </item>
     <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
@@ -114,11 +177,60 @@
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b04814787280f0b148c0997533cc54b3d0947762/classes.dex" />
     </item>
     <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1bf4780b6e2e20db624233bf7383d4997ff468ba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_99f55cbf6227d8c6c82c5eaa6f973069e8b6f5f2/classes.dex" />
+    </item>
+    <item
         jar="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="/Users/colinshum/Downloads/productiivity-f153b33a3091479bfa4e83012775586db5fe29bd 2/productiivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b24d9b63c6ad18f2ad9d187ab210d687ced520c9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_3c044ee9841fd2636a05d6f9fd5182e6bebb38e1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a788246f0e1092ec939645033e5cc5567e762704/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b6d0702a4e57f0ab392b2b4994c9b7879a359406/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_5c3f6f44c9a9aff20fcf3212cfa7f2ce7f27208a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/colinshum/Documents/productiivity-htn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_ae6fa67c42778d31c96c325402ae4ab6f39af84b/classes.dex" />
     </item>
 
 </items>
