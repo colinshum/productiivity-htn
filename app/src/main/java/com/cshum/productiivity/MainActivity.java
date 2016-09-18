@@ -3,6 +3,7 @@ package com.cshum.productiivity;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,14 +14,15 @@ import android.hardware.SensorEventListener;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorManager;
+import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
     public TextView label;
-
+    public boolean go = false;
     public double timerValue;
     public MediaPlayer mediaGit;
     public MediaPlayer mediaRah;
-    public int git = R.raw.git;
+    public int git = R.raw.git2;
     public int rah = R.raw.rah;
     private SensorManager senSensorManager;
     private Sensor senAccelerometer;
@@ -58,40 +60,41 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onSensorChanged(SensorEvent event) {
         Sensor mySensor = event.sensor;
+        if (go) {
+            if (mySensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+                float x = event.values[0];
+                float y = event.values[1];
+                float z = event.values[2];
 
-        if (mySensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-            float x = event.values[0];
-            float y = event.values[1];
-            float z = event.values[2];
+                long curTime = System.currentTimeMillis();
 
-            long curTime = System.currentTimeMillis();
+                if ((curTime - lastUpdate) > 20) {
+                    long diffTime = (curTime - lastUpdate);
+                    lastUpdate = curTime;
 
-            if ((curTime - lastUpdate) > 20) {
-                long diffTime = (curTime - lastUpdate);
-                lastUpdate = curTime;
+                    float speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
 
-                float speed = Math.abs(x + y + z - last_x - last_y - last_z)/ diffTime * 10000;
+                    last_x = x;
+                    last_y = y;
+                    last_z = z;
 
-                last_x = x;
-                last_y = y;
-                last_z = z;
+                    while (speed > SHAKE_THRESHOLD) {
+                        curTime = System.currentTimeMillis();
+                        if ((curTime - lastUpdate) > 20) {
+                            diffTime = (curTime - lastUpdate);
+                            lastUpdate = curTime;
+                            gitStart();
+                            x = event.values[0];
+                            y = event.values[1];
+                            z = event.values[2];
+                            speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
 
-                while (speed > SHAKE_THRESHOLD) {
-                    curTime = System.currentTimeMillis();
-                    if ((curTime - lastUpdate) > 20) {
-                        diffTime = (curTime - lastUpdate);
-                        lastUpdate = curTime;
-                        gitStart();
-                        x = event.values[0];
-                        y = event.values[1];
-                        z = event.values[2];
-                        speed = Math.abs(x + y + z - last_x - last_y - last_z)/ diffTime * 10000;
+                            last_x = x;
+                            last_y = y;
+                            last_z = z;
+                        }
 
-                        last_x = x;
-                        last_y = y;
-                        last_z = z;
                     }
-
                 }
             }
         }
@@ -109,14 +112,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     public void rahCreate() {
-        mediaRah = MediaPlayer.create(this, git);
+        mediaRah = MediaPlayer.create(this, rah);
     }
     public void rahStart() {
         mediaRah.start();
-    }
-
-    public void timerStart() {
-
     }
 
     public void startTimer(View view) {
@@ -125,6 +124,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         label.setText(time.getText().toString());
         timerValue = Double.parseDouble(time.getText().toString());
+        go = true;
 
         new CountDownTimer(Long.parseLong(time.getText().toString()) * 60000, 1000) {
             public void onTick(long millisUntilFinished) {
@@ -132,6 +132,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
             public void onFinish() {
                 label.setText("Finished!");
+                go = false;
             }
         }.start();
     }
